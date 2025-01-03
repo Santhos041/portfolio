@@ -22,19 +22,19 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2023 - present"
+              date="2023"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                MERN Stack Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                RVTech Learn
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+              Hands-on experience with MERN stack during the internship. Developed proficiency
+              in building scalable web applications, implementing RESTful APIs, and crafting dynamic user interfaces.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -43,42 +43,22 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2020 - 2022"
+              date="2024"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+              MERN Stack Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Better Tomorrow
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Experienced in MERN stack development, including authentication, APIs, role-based routing, and MongoDB
+                optimization. Skilled in Express for backend and error handling.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  white",
-              }}
-              date="2018 - 2020"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
-              icon={<SiReact />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
-              </h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </p>
-            </VerticalTimelineElement>
+           
           </VerticalTimeline>
         </div>
       </div>

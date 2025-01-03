@@ -3,6 +3,7 @@ import "./Menus.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
+import profilePic from '../../assets/santhosh_profile.jpg';
 import {
   FcAbout,
   FcBiotech,
@@ -20,7 +21,7 @@ const Menus = ({ toggle }) => {
           <Zoom>
             <div className="navbar-profile-pic">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
+                src={profilePic}
                 alt="profile pic"
               />
             </div>

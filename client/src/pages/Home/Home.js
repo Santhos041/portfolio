@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.txt";
+import Resume from "../../assets/docs/resume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
 import Fade from "react-reveal/Fade";
@@ -31,7 +31,6 @@ const Home = () => {
                   strings: [
                     "FullStack Developer!",
                     "Mern Stack Developer!",
-                    "React native developer!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -43,13 +42,13 @@ const Home = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=1234567890"
+                href="https://api.whatsapp.com/send?phone=9344534305"
                 rel="noreferrer"
                 target="_blank"
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={Resume} download="your_name.pdf">
+              <a className="btn btn-cv" href={Resume} download="santhosh.pdf">
                 My Resume
               </a>
             </div>
