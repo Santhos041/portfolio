@@ -10,6 +10,7 @@ const transporter = nodemailer.createTransport(
   })
 );
 
+console.log("SendGrid API Key:", process.env.API_SENDGRID);
 const sendEmailController = (req, res) => {
   try {
     const { name, email, msg } = req.body;
@@ -22,9 +23,10 @@ const sendEmailController = (req, res) => {
       });
     }
     //email matter
+
     transporter.sendMail({
-      to: "typeyouremailadresshere@gmail.com",
-      from: "typeyouremailadresshere@gmail.com",
+      to: "youremail@gmail.com",
+      from: "youremail@gmail.com",
       subject: "Regarding Mern Portfolio App",
       html: `
         <h5>Detail Information</h5>

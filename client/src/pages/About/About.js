@@ -23,7 +23,7 @@ const About = () => {
                
               </p>
               <p>
-              Passionate about competitive programming, I have solved 180+ problems on LeetCode with a maximum rating of 1307. I have also been a finalist in
+              Passionate about competitive programming, I have solved 200+ problems on LeetCode with a maximum rating of 1307. I have also been a finalist in
                 multiple hackathons and secured second place in a Mini Project Expo. With a strong foundation in C, Python, and Java, I am focused on 
                 enhancing my skills and contributing to the tech industry.
               </p>

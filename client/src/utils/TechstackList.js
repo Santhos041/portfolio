@@ -1,14 +1,11 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
 import {
   SiJavascript,
   SiMui,
   SiReact,
   SiTailwindcss,
   SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
   SiMongodb,
   SiMysql,
   SiTypescript,
@@ -17,7 +14,6 @@ import {
   SiFirebase,
   SiDocker,
   SiExpress,
-  SiNginx,
   SiAngular,
 } from "react-icons/si";
 export const TechstackList = [
@@ -56,11 +52,7 @@ export const TechstackList = [
     name: "React JS",
     icon: SiReact,
   },
-  {
-    _id: 8,
-    name: "Nextjs",
-    icon: TbBrandNextjs,
-  },
+  
   {
     _id: 9,
     name: "React MUI",
@@ -75,16 +67,6 @@ export const TechstackList = [
     _id: 11,
     name: "Figma ",
     icon: SiFigma,
-  },
-  {
-    _id: 12,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
-    _id: 13,
-    name: "Photoshop ",
-    icon: SiAdobephotoshop,
   },
   {
     _id: 14,
@@ -130,10 +112,5 @@ export const TechstackList = [
     _id: 22,
     name: "Docker ",
     icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Nginx ",
-    icon: SiNginx,
   },
 ];
